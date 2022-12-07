@@ -1,0 +1,28 @@
+program Nomor8;
+
+const
+     C = 0.0000000075;
+     Q = 0.000000165;
+
+var 
+     v:real;
+
+begin
+     writeln('-------------- Nomor 8 ------------');
+     writeln('Dik =');
+     writeln('C = 7500 pF');
+     writeln('Q = 16,5 x 10^-18 c');
+     writeln('');
+
+     writeln('------ Menghitung Kapasitor -------');
+     writeln('v = Q / C');
+     writeln('');
+     v:= Q / C;
+
+     writeln('-------------- Hasil ---------------');
+     writeln('v = Q / C = ',v:0:0, ' Volt');
+
+     writeln ('------------------------------------------');
+     writeln ('© 2022 Giska Putri Datarosi');
+
+end.
