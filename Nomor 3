@@ -1,0 +1,26 @@
+program nomor3;
+
+const
+    v = 110;
+    i = 2.8;
+
+var 
+    r:real;
+
+begin
+    writeln('------- Menghitung Hambatan --------');
+    writeln('Dik :');
+    writeln('v    = 110 volt');
+    writeln('i    = 2.8 Ampere');
+  
+    writeln('------------------------------------');
+{Proses menghitung hambatan}
+    r:= v/i;
+    writeln('hambatan = ', r:2:3, 'ohm');
+    writeln('------------------------------------');
+    writeln('© 2022 Giska Putri Datarosi');
+    
+    readln;
+  
+end.
+
